@@ -1,0 +1,23 @@
+git branch user1
+git branch user2
+git branch user3
+git checkout user1
+git commit
+git commit
+git checkout user2
+git commit
+git commit
+git checkout user3
+git commit
+git commit
+git commit
+git checkout user2
+git commit
+git checkout master
+git merge user1
+You have performed a fast-forward merge.
+git merge user2
+git checkout user3
+git commit
+git checkout master
+git merge user3
